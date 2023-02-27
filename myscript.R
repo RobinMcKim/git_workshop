@@ -3,4 +3,7 @@
 library(dplyr)
 library(readr)
 library(vegan)
-library(tidyr)
+my_data <- read_csv("...")
+
+#clean the data
+data_clean <- clean_names(my_data)
